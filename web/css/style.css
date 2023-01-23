@@ -5,6 +5,14 @@ footer {
   font-size: 12px;
 } 
 
+body {
+  background-color: #e5ffdb;
+}
+
+.card-body {
+  background-color: #5e7953;
+}
+
 .toast {
     /* dirty: below 'card' button  */
     position: fixed; 
@@ -30,6 +38,7 @@ footer {
 
 .card-header {
   height: 5em;
+  background-color: #5e7953;
 }
 
 .card-text {
