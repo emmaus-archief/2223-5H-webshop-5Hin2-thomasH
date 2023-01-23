@@ -13,6 +13,10 @@ body {
   background-color: #5e7953;
 }
 
+.btn {
+  background-color: #e5ffdb;
+}
+
 .toast {
     /* dirty: below 'card' button  */
     position: fixed; 

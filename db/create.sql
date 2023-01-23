@@ -10,6 +10,11 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
+CREATE TABLE reviews (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  
+)
+
 
 --
 -- populate with data
