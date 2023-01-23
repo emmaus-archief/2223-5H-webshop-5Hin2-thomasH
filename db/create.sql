@@ -10,10 +10,12 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
-CREATE TABLE reviews (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+--CREATE TABLE reviews (
+  --id INTEGER PRIMARY KEY AUTOINCREMENT,
+  --person_id INTEGER,
+ -- review TEXT,
   
-)
+--)
 
 
 --
@@ -25,10 +27,9 @@ CREATE TABLE reviews (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('Album 1', 'Pop album uitgebracht in 2019', '816905633-0', 10.5);
-insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
-insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 13.5);
-insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
-insert into products (name, description, code, price) values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
-insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
-
+insert into products (name, description, code, price) values ('Album 1', 'Pop album uitgebracht in 2019', '816905633-0', 21);
+insert into products (name, description, code, price) values ('Album 2', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 19);
+insert into products (name, description, code, price) values ('Album 3', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 20);
+insert into products (name, description, code, price) values ('Album 4', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 17);
+insert into products (name, description, code, price) values ('Album 5', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 25);
+insert into products (name, description, code, price) values ('Album 6', 'Gezellig feest muziek', '492662523-7', 26);
