@@ -107,4 +107,15 @@ insert into bestellingen (name, item, adres, betaalmethode) values ('Adriaan Nap
 -- name TEXT, items TEXT, adres TEXT, betaalmethode TEXT
 
 -- Adres
-insert into reviews (name) values ('past precies');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
+insert into reviews (name, adres) values ('naam', 'adres');
