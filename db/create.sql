@@ -90,32 +90,32 @@ insert into betalingen (name, betaalmethode) values ('Sven Van Hee','ING');
 insert into betalingen (name, betaalmethode) values ('Adriaan Napper','ABN AMRO');
 
 -- Bestellingen
-insert into bestellingen (name, item, adres, betaalmethode) values ('Jacco Ren', 'Grijze spijkerbroek', 'ABN AMRO');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Roelof Looper', 'Groen shirt', 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Van Wart', 'Blauwe spijkerbroek' 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Stijn Dul', 'Zwarte cargo broek', 'ABN AMRO');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Arie Benedix', 'Zwarte muts', 'ABN AMRO');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Claes Mont', 'Zwarte handschoenen', 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Goes', 'Rode trui', 'Rabobank');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Roelof Looper', 'Witte broek', 'Rabobank');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Van Wart', 'Zwarte slippers', 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Lukas Troost', 'Groene schoenen', 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Sven Van Hee', 'Witte broek', 'ING');
-insert into bestellingen (name, item, adres, betaalmethode) values ('Adriaan Napper', 'Rode trui', 'ABN AMRO');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Jacco Ren', 'Grijze spijkerbroek', 'Spijkerstraat 93', 'ABN AMRO');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Roelof Looper', 'Groen shirt', 'Vissenlaan 34',  'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Van Wart', 'Blauwe spijkerbroek', 'Kortlichtstraat 43', 'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Stijn Dul', 'Zwarte cargo broek', 'Zitbankweg 86', 'ABN AMRO');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Arie Benedix', 'Zwarte muts', 'Loempiastraat 103',  'ABN AMRO');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Claes Mont', 'Zwarte handschoenen', 'Porseleinlaan 49', 'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Goes', 'Rode trui', 'Waaierweg 109',  'Rabobank');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Roelof Looper', 'Witte broek', 'Spookkweg  91',  'Rabobank');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Anthonie Van Wart', 'Zwarte slippers', 'Kattenlaan 94', 'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Lukas Troost', 'Groene schoenen', 'Doornweg 30',  'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Sven Van Hee', 'Witte broek', 'Kortlichstraat 41', 'ING');
+insert into bestellingen (name, item, adres, betaalmethode) values ('Adriaan Napper', 'Rode trui', 'Pyramidestraat 71',  'ABN AMRO');
 
 
 -- name TEXT, items TEXT, adres TEXT, betaalmethode TEXT
 
 -- Adres
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
-insert into reviews (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
+insert into adres (name, adres) values ('naam', 'adres');
