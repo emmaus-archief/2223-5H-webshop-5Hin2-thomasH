@@ -18,19 +18,13 @@ CREATE TABLE reviews (
   review TEXT,
   product_id INTEGER -- verwijs naar product
 );
-  
-CREATE TABLE betalingen (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT,
-  betaalmethode TEXT
-);
 
 CREATE TABLE bestellingen (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
   item TEXT,
   adres_id INTEGER, -- verwijs naar adres.adres
-  betaalmethode TEXT
+  betaalmethode_id integer -- verwijs naar personen.betaalmethodes
 );
 
 CREATE TABLE adres (
@@ -99,19 +93,23 @@ insert into betalingen (name, betaalmethode) values ('Sven Van Hee','ING');
 insert into betalingen (name, betaalmethode) values ('Adriaan Napper','ABN AMRO');
 
 -- Bestellingen
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Jacco Ren', 'Grijze spijkerbroek', '1', 'ABN AMRO');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Roelof Looper', 'Groen shirt', '2',  'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Anthonie Van Wart', 'Blauwe spijkerbroek', '3', 'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Stijn Dul', 'Zwarte cargo broek', '4', 'ABN AMRO');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Arie Benedix', 'Zwarte muts', '5',  'ABN AMRO');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Claes Mont', 'Zwarte handschoenen', '6', 'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Anthonie Goes', 'Rode trui', '7',  'Rabobank');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Mark den Bos', 'Witte broek', '8',  'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sharinda van der Luit', 'Zwarte slippers', '9', 'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Lukas Troost', 'Groene schoenen', '10',  'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sven Van Hee', 'Witte broek', '11', 'ING');
-insert into bestellingen (name, item, adres_id, betaalmethode) values ('Adriaan Napper', 'Rode trui', '12',  'ABN AMRO');
-
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Jacco Ren', 'Grijze spijkerbroek', 1, 'ABN AMRO');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Roelof Looper', 'Groen shirt', 2,  'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Anthonie Van Wart', 'Blauwe spijkerbroek', 3, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Stijn Dul', 'Zwarte cargo broek', 4, 'ABN AMRO');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Arie Benedix', 'Zwarte muts', 5,  'ABN AMRO');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Claes Mont', 'Zwarte handschoenen', 6, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Anthonie Goes', 'Rode trui', 7,  'Rabobank');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Mark den Bos', 'Witte broek', 8,  'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sharinda van der Luit', 'Zwarte slippers', 9, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Lukas Troost', 'Groene schoenen', 10,  'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sven Van Hee', 'Witte broek', 11, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Adriaan Napper', 'Rode trui', 12,  'ABN AMRO');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Anthonie Van Wart', 'Groene schoenen', 3, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sharinda van der Luit', 'Zwarte muts', 9, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Stijn Dul', 'Blauwe spijkerbroek', 4, 'ABN AMRO');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Sven Van Hee', 'Grijze spijkerbroek', 11, 'ING');
+insert into bestellingen (name, item, adres_id, betaalmethode) values ('Roelof Looper', 'Rode trui', 2,  'ING');
 
 -- name TEXT, items TEXT, adres TEXT, betaalmethode TEXT
 
