@@ -100,8 +100,6 @@ insert into bestellingen (name, item, adres_id, betaalmethode_id) values ('Stijn
 insert into bestellingen (name, item, adres_id, betaalmethode_id) values ('Sven Van Hee', 'Grijze spijkerbroek', 11, 1);
 insert into bestellingen (name, item, adres_id, betaalmethode_id) values ('Roelof Looper', 'Rode trui', 2,  1);
 
--- name TEXT, items TEXT, adres TEXT, betaalmethode TEXT
-
 -- Adres
 insert into adres (name, adres) values ('Jacco Ren', 'Spijkerstraat 93');
 insert into adres (name, adres) values ('Roelof Looper', 'Vissenlaan 34');
