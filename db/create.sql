@@ -16,15 +16,15 @@ CREATE TABLE reviews (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
   review TEXT,
-  product_id INTEGER -- verwijs naar product
+  product_id INTEGER
 );
 
 CREATE TABLE bestellingen (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
   item TEXT,
-  adres_id INTEGER, -- verwijs naar adres.adres
-  betaalmethode_id integer -- verwijs naar personen.betaalmethodes
+  adres_id INTEGER,
+  betaalmethode_id integer
 );
 
 CREATE TABLE adres (
@@ -70,13 +70,15 @@ insert into reviews (name, review, product_id) values ('Roelof Looper','Mooie kl
 insert into reviews (name, review, product_id) values ('Anthonie Van Wart','Niet dezelfde kleur als op de foto.', 2);
 insert into reviews (name, review, product_id) values ('Stijn Dul','Fijn materiaal makkelijk om in te bewegen.', 3);
 insert into reviews (name, review, product_id) values ('Arie Benedix','Heel erg zachte stof.', 10);
-insert into reviews (name, review, product_id) values ('Claes Mont','Precies wat ik zocht.');
-insert into reviews (name, review, product_id) values ('Anthonie Goes','Hele snelle bezorging.');
-insert into reviews (name, review, product_id) values ('Mark den Bos','Erg goedkoop.');
-insert into reviews (name, review, product_id) values ('Sharinda van der Luit','Ik heb na mijn eerste bestelling de site gelijk aangeraden aan mijn familie.');
-insert into reviews (name, review, product_id) values ('Lukas Troost','Kwam veel later binnen dan bij de tracking stond.');
-insert into reviews (name, review, product_id) values ('Sven Van Hee','Ben treveden met mijn bestelling.');
-insert into reviews (name, review, product_id) values ('Adriaan Napper','Precies wat ik zocht.');
+insert into reviews (name, review, product_id) values ('Claes Mont','Precies wat ik zocht.' 9);
+insert into reviews (name, review, product_id) values ('Anthonie Goes','Hele snelle bezorging.', 7);
+insert into reviews (name, review, product_id) values ('Mark den Bos','Erg goedkoop.', 6);
+insert into reviews (name, review, product_id) values ('Sharinda van der Luit','Ik heb na mijn eerste bestelling de site gelijk aangeraden aan mijn familie.', 12);
+insert into reviews (name, review, product_id) values ('Lukas Troost','Kwam veel later binnen dan bij de tracking stond.', 11);
+insert into reviews (name, review, product_id) values ('Sven Van Hee','Ben treveden met mijn bestelling.', 6);
+insert into reviews (name, review, product_id) values ('Adriaan Napper','Precies wat ik zocht.' 7);
+insert into reviews (name, review, product_id) values ('Anthonie Van Wart','Past goed.', 11);
+insert into reviews (name, review, product_id) values ('Sharinda van der Luit','Valt precies goed.', 10);
 
 
 -- Bestellingen
